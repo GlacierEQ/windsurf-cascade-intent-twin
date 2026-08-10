@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/windsurf-cascade-intent-twin",
+  "source_sha": "622ab62fd12676d5b11181d7434c942f664d0d9f0c04ce09d7aec95d9099a16a",
+  "proof_receipt_digest": "fd9f4937a631855d98c92935bc65de4dfab6d142f855e728d37197180040ae11",
+  "not_after": 1788948706.496297,
+  "mac": "26ae891cdcdc6c87f0fe739bb7c96eee6b1529efa0745c80590efa6351e918c1",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}

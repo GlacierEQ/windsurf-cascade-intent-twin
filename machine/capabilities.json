@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/windsurf-cascade-intent-twin",
+  "capabilities": [
+    {
+      "id": "cascade-intent-twin",
+      "name": "Cascade Intent Twin",
+      "status": "SCAFFOLD",
+      "module": "src/cascade_intent_twin.py"
+    }
+  ]
+}
