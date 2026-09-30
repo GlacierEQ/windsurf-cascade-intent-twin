@@ -4,12 +4,12 @@
   "source_sha": "622ab62fd12676d5b11181d7434c942f664d0d9f0c04ce09d7aec95d9099a16a",
   "proof_id": "elite-windsurf-cascade-intent-twin-1786356706",
   "environment": {
-    "python": "/Users/kcbflux/.local/bin/python3.11",
-    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/windsurf-cascade-intent-twin:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/windsurf-cascade-intent-twin/src",
+    "python": "${HOME}/.local/bin/python3.11",
+    "PYTHONPATH": "${HOME}/GlacierEQ_Swarm/job-app/repos/windsurf-cascade-intent-twin:${HOME}/GlacierEQ_Swarm/job-app/repos/windsurf-cascade-intent-twin/src",
     "entry": "unittest"
   },
   "tests": [
-    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+    "${HOME}/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
   ],
   "adversarial_tests": [
     "tests/test_adversarial.py"
